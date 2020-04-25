@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #f3e7e9 0%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+}
+.App .pgnTitulo {
+  text-align: center;
+  margin: auto;
+  margin-top: 1px;
+  color: black;
+  background: peru;
+  max-width: 70%;
+  border-radius: 10px;
+}
+.searchForm {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+.searchBtn {
+  background: #5096ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
